@@ -1,7 +1,11 @@
 ﻿namespace Movies.Contracts.Requests;
 
-public class CreateMovieRequest
+public readonly record struct CreateMovieRequest
 {
+    public CreateMovieRequest()
+    {
+    }
+
     public required string Title { get; init; }
 
     public required int YearOfRelease { get; init; }
