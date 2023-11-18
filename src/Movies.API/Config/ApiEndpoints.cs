@@ -16,5 +16,6 @@ public static class ApiEndpoints
 
         public const string Update = $"{Base}/{{id:guid}}";
 
+        public const string Delete = $"{Base}/{{id:guid}}";
     }
 }
