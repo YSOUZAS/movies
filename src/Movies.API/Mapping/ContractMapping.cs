@@ -48,6 +48,4 @@ public static class ContractMapping
             Items = movies.Select(MapToResponse).ToList()
         };
     }
-
-
 }
